@@ -1,0 +1,37 @@
+─────────────────────────────────────────────────────────[ REGISTERS ]─────────────────────────────────────────────────────────
+ RAX  0x7fffffffdb30 ◂— 0x6161616261616161 ('aaaabaaa')
+ RBX  0x0
+ RCX  0x6023f1 ◂— 0x0
+ RDX  0x0
+ RDI  0x601050 (data_start) ◂— 'cat flag.txt'
+ RSI  0x6022a1 ◂— 0x6361616162616161 ('aaabaaac')
+ R8   0x7fffffffdb30 ◂— 0x6161616261616161 ('aaaabaaa')
+ R9   0x7fffffffdb60 —▸ 0x601050 (data_start) ◂— 'cat flag.txt'
+ R10  0x601058 (__dso_handle) ◂— 0x7478742e /* '.txt' */
+ R11  0x7478742e
+ R12  0x0
+ R13  0x0
+ R14  0x4d2
+ R15  0xdeadbeef13379876
+ RBP  0x6161616a61616169 ('iaaajaaa')
+ RSP  0x7fffffffdc80 —▸ 0x7fffffff000a ◂— 0x0
+ RIP  0x4005e0 (system@plt) ◂— jmp    qword ptr [rip + 0x200a3a]
+
+
+ RAX  0x7fffffffdb30 ◂— 0x6161616261616161 ('aaaabaaa')
+ RBX  0x0
+ RCX  0x6023f1 ◂— 0x0
+ RDX  0x0
+ RDI  0x601050 (data_start) ◂— 'cat flag.txt'
+ RSI  0x6022a1 ◂— 0x6361616162616161 ('aaabaaac')
+ R8   0x7fffffffdb30 ◂— 0x6161616261616161 ('aaaabaaa')
+ R9   0x7fffffffdb60 —▸ 0x601050 (data_start) ◂— 'cat flag.txt'
+ R10  0x601058 (__dso_handle) ◂— 0x7478742e /* '.txt' */
+ R11  0x7478742e
+ R12  0x0
+ R13  0x1
+ R14  0x4d2
+ R15  0xdeadbeef13379876
+ RBP  0x6161616a61616169 ('iaaajaaa')
+ RSP  0x7fffffffdc80 —▸ 0x7fffffff000a ◂— 0x0
+ RIP  0x4005e0 (system@plt) ◂— jmp    qword ptr [rip + 0x200a3a]

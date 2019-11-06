@@ -1,0 +1,9 @@
+mov r11d, 0x602050
+mov edi, 0x601050
+mov [r10], r11
+
+mov [r10], r11
+xchg r11, r10
+
+xor r11, r12
+pop r12
